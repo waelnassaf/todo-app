@@ -9,8 +9,8 @@ import { TodoProvider } from "./context/TodoContext"
 
 function App() {
     return (
-        <Router>
-            <TodoProvider>
+        <TodoProvider>
+            <Router>
                 <Header />
                 <div className="container-lg px-0 px-sm-3">
                     <Routes>
@@ -28,8 +28,8 @@ function App() {
                     </Routes>
                     <AboutIconLink />
                 </div>
-            </TodoProvider>
-        </Router>
+            </Router>
+        </TodoProvider>
     )
 }
 
