@@ -21,12 +21,12 @@ function App() {
                                     <TodoForm />
                                     <TodoStats />
                                     <TodoList />
+                                    <AboutIconLink />
                                 </>
                             }
                         />
                         <Route path="/about" element={<AboutPage />} />
                     </Routes>
-                    <AboutIconLink />
                 </div>
             </Router>
         </TodoProvider>
